@@ -1,0 +1,24 @@
+{
+  "name": "knowledge-base",
+  "version": "1.0.0",
+  "description": "基于VuePress的个人知识库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewisxiao/knowledge-base.git"
+  },
+  "author": "lewisxiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewisxiao/knowledge-base/issues"
+  },
+  "homepage": "https://github.com/lewisxiao/knowledge-base#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
