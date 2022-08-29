@@ -9,13 +9,22 @@ module.exports = {
             {
                 title: 'Java',
                 path: '/java/',
-                collapsable: false,
+                collapsable: true,
                 sidebarDepth: 1,
                 children: [
                   '/java/base',
                   '/java/jvm'
                 ]
             },
+            {
+                title: '开源项目集',
+                path: '/opensourceproject/',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                  '/opensourceproject/backend'
+                ]
+            }
           ]
     }
 }
