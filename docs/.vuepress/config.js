@@ -31,7 +31,23 @@ export default {
                         link: '/open-source-project/backend'
                     }
                 ]
-            }
+            },
+            {
+                text: '工具集',
+                link: '/tools/',
+                children: [
+                    {
+                        text: 'Git',
+                        link: '/tools/git/',
+                        children: [
+                            {
+                                text: '分支模型',
+                                link: '/tools/git/branch-model',
+                            }
+                        ]
+                    }
+                ]
+            },
         ]
     })
 }
