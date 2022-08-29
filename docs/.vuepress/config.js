@@ -43,6 +43,10 @@ export default {
                             {
                                 text: '分支模型',
                                 link: '/tools/git/branch-model',
+                            },
+                            {
+                                text: 'Commit Message规范',
+                                link: '/tools/git/commit-message',
                             }
                         ]
                     }
