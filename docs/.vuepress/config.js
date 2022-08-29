@@ -1,30 +1,37 @@
-module.exports = {
+import { defaultTheme } from '@vuepress/theme-default'
+
+export default {
     title: '我的知识库',
     description: '基于VuePress的个人知识库',
-    themeConfig: {
+    theme: defaultTheme({
         nav: [
             { text: 'Home', link: '/' },
         ],
         sidebar: [
             {
-                title: 'Java',
-                path: '/java/',
-                collapsable: true,
-                sidebarDepth: 1,
+                text: 'Java',
+                link: '/java/',
                 children: [
-                  '/java/base',
-                  '/java/jvm'
+                    {
+                        text: 'Java基础',
+                        link: '/java/base'
+                    },
+                    {
+                        text: 'Java虚拟机',
+                        link: '/java/jvm'
+                    }
                 ]
             },
             {
-                title: '开源项目集',
-                path: '/opensourceproject/',
-                collapsable: true,
-                sidebarDepth: 1,
+                text: '开源项目集',
+                link: '/open-source-project/',
                 children: [
-                  '/opensourceproject/backend'
+                    {
+                        text: '后端项目集',
+                        link: '/open-source-project/backend'
+                    }
                 ]
             }
-          ]
-    }
+        ]
+    })
 }

@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/lewisxiao/knowledge-base#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "v2.0.0-beta.51"
   }
 }
