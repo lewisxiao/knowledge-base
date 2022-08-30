@@ -44,3 +44,6 @@ feat(login): 更新登录功能
 
 ## Footer
 Footer 部分只用于两种情况：不兼容变动、关闭 Issue
+
+## 参考
+1. [Commit message 和 Change log 编写指南](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

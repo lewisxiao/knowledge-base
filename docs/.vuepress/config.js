@@ -49,6 +49,20 @@ export default {
                                 link: '/tools/git/commit-message',
                             }
                         ]
+                    },
+                    {
+                        text: 'Gradle',
+                        link: '/tools/gradle/',
+                        children: [
+                            {
+                                text: '依赖管理',
+                                link: '/tools/gradle/dependency',
+                            },
+                            {
+                                text: '常见问题',
+                                link: '/tools/gradle/qa',
+                            }
+                        ]
                     }
                 ]
             },
