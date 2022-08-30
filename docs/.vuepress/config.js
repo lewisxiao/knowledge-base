@@ -11,6 +11,7 @@ export default {
             {
                 text: 'Java',
                 link: '/java/',
+                collapsible: false,
                 children: [
                     {
                         text: 'Java基础',
@@ -24,11 +25,13 @@ export default {
             },
             {
                 text: 'Android',
-                link: '/android/'
+                link: '/android/',
+                collapsible: false,
             },
             {
                 text: 'Linux',
                 link: '/linux/',
+                collapsible: false,
                 children: [
                     {
                         text: '常用命令',
@@ -37,12 +40,37 @@ export default {
                 ]
             },
             {
+                text: 'Spring',
+                link: '/spring/',
+                collapsible: false,
+                children: [
+                    {
+                        text: 'Spring Core模块学习',
+                        link: '/spring/spring-core'
+                    },
+                    {
+                        text: '重要注解',
+                        link: '/spring/important-annotation'
+                    },
+                    {
+                        text: '负载均衡',
+                        link: '/spring/load-balance'
+                    },
+                    {
+                        text: 'OpenFeign的使用详解',
+                        link: '/spring/spring-cloud-starter-openfeign'
+                    }
+                ]
+            },
+            {
                 text: 'Redis',
                 link: '/redis/',
+                collapsible: false,
             },
             {
                 text: '开源项目集',
                 link: '/open-source-project/',
+                collapsible: false,
                 children: [
                     {
                         text: '后端项目集',
@@ -51,8 +79,28 @@ export default {
                 ]
             },
             {
+                text: '数据库',
+                link: '/database/',
+                collapsible: false,
+                children: [
+                    {
+                        text: 'MySQL',
+                        link: '/database/mysql/',
+                        children: [
+                            { text: '索引', link: '/database/mysql/sql-index'},
+                            { text: '查看mysql的连接情况', link: '/database/mysql/operation'},
+                        ],
+                    },
+                    {
+                        text: '分库分表',
+                        link: '/database/data-partition'
+                    }
+                ]
+            },
+            {
                 text: '工具集',
                 link: '/tools/',
+                collapsible: false,
                 children: [
                     {
                         text: 'Git',
