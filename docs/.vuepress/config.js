@@ -23,6 +23,24 @@ export default {
                 ]
             },
             {
+                text: 'Android',
+                link: '/android/'
+            },
+            {
+                text: 'Linux',
+                link: '/linux/',
+                children: [
+                    {
+                        text: '常用命令',
+                        link: '/linux/command'
+                    }
+                ]
+            },
+            {
+                text: 'Redis',
+                link: '/redis/',
+            },
+            {
                 text: '开源项目集',
                 link: '/open-source-project/',
                 children: [
