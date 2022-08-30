@@ -87,14 +87,12 @@ export default {
                         text: 'MySQL',
                         link: '/database/mysql/',
                         children: [
-                            { text: '索引', link: '/database/mysql/sql-index'},
-                            { text: '查看mysql的连接情况', link: '/database/mysql/operation'},
+                            { text: '索引', link: '/database/mysql/sql-index' },
+                            { text: '查看mysql的连接情况', link: '/database/mysql/operation' },
                         ],
                     },
-                    {
-                        text: '分库分表',
-                        link: '/database/data-partition'
-                    }
+                    { text: '分库分表', link: '/database/data-partition' },
+                    { text: '动态数据源', link: '/database/dynamic-ds' },
                 ]
             },
             {
