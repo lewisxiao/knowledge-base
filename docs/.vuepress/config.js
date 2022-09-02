@@ -73,6 +73,16 @@ export default {
                 collapsible: false,
                 children: [
                     {
+                        text: '前端项目集',
+                        link: '/open-source-project/frontend',
+                        children: [
+                            {
+                                text: '后台管理模板',
+                                link: '/open-source-project/frontend/admin-template'
+                            }
+                        ]
+                    },
+                    {
                         text: '后端项目集',
                         link: '/open-source-project/backend'
                     }
