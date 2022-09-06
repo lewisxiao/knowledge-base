@@ -9,6 +9,16 @@ export default {
         ],
         sidebar: [
             {
+                text: '技术文章',
+                link: '/tech-article/',
+                children: [
+                    {
+                        text: '云计算',
+                        link: '/tech-article/cloud-computing'
+                    }
+                ]
+            },
+            {
                 text: 'Java',
                 link: '/java/',
                 collapsible: false,
