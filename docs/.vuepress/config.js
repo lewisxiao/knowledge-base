@@ -28,6 +28,20 @@ export default {
                         link: '/java/base'
                     },
                     {
+                        text: '并发编程',
+                        link: '/java/concurrent',
+                        children: [
+                            {
+                                text: 'CountDownLatch',
+                                link: '/java/concurrent/count-down-latch'
+                            },
+                            {
+                                text: 'CyclicBarrier',
+                                link: '/java/concurrent/cyclic-barrier'
+                            }
+                        ]
+                    },
+                    {
                         text: 'Java虚拟机',
                         link: '/java/jvm'
                     }
@@ -46,6 +60,22 @@ export default {
                     {
                         text: '常用命令',
                         link: '/linux/command'
+                    }
+                ]
+            },
+            {
+                text: '中间件',
+                link: '/middleware',
+                children: [
+                    {
+                        text: 'RocketMQ',
+                        link: '/middleware/rocketmq',
+                        children: [
+                            {
+                                text: '四大组件',
+                                link: '/middleware/rocketmq/rocketmq'
+                            }
+                        ]
                     }
                 ]
             },
