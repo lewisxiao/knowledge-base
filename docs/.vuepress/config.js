@@ -15,6 +15,15 @@ export default {
                     {
                         text: '云计算',
                         link: '/tech-article/cloud-computing'
+                    },
+                    {
+                        text: 'Java',
+                        children: [
+                            {
+                                text: 'JDK17又要免费了?',
+                                link: '/tech-article/java/jdk-free-again'
+                            }
+                        ]
                     }
                 ]
             },

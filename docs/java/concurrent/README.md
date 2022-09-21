@@ -109,6 +109,56 @@ Blocked 状态是线程因为某种原因失去了 CPU 使用权，暂时停止�
 ### Terminated —— 结束状态
 线程执行完成或由于异常而退出，意味着线程的生命周期已经结束。
 
+## 使用 Jstack 查看 JVM 虚拟机中线程的状态
+JDK 自带了一个小工具 `jstack`，可以很方便查看虚拟机中所有的线程，学习了上面线程的状态，就能看懂其输出的内容了
+```code
+2022-06-28 15:15:55
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.202-b08 mixed mode):
+
+"Attach Listener" #48023 daemon prio=9 os_prio=0 tid=0x00007fc568122800 nid=0x4e84 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"OkHttp TaskRunner" #47987 daemon prio=5 os_prio=0 tid=0x00007fc5ac07f800 nid=0x3d83 waiting on condition [0x00007fc515ff2000]
+   java.lang.Thread.State: TIMED_WAITING (parking
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006c8b00008> (a java.util.concurrent.SynchronousQueue$TransferStack)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"redisson-3-12" #47975 prio=5 os_prio=0 tid=0x00007fc5982c1800 nid=0x3965 waiting on condition [0x00007fc516033000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006c8b47a40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+"redisson-3-11" #47972 prio=5 os_prio=0 tid=0x00007fc5982c1000 nid=0x3834 waiting on condition [0x00007fc51744b000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006c8b47a40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+```
+
 ## 参考
 1. [baeldung - Life Cycle of a Thread in Java](https://www.baeldung.com/java-thread-lifecycle)
 2. [线程的六种状态](https://www.cnblogs.com/dingpeng9055/p/16307193.html)
+3. [Java线程状态分析](https://fangjian0423.github.io/2016/06/04/java-thread-state/)
