@@ -22,6 +22,28 @@ export default {
                             {
                                 text: 'JDK17又要免费了?',
                                 link: '/tech-article/java/jdk-free-again'
+                            },
+                            {
+                                text: '揭开字节码技术的面纱',
+                                link: '/tech-article/java/bytecode'
+                            }
+                        ]
+                    },
+                    {
+                        text: '操作系统',
+                        children: [
+                            {
+                                text: '聊聊密集型任务',
+                                link: '/tech-article/operating-system/task'
+                            }
+                        ]
+                    },
+                    {
+                        text: '未分类',
+                        children: [
+                            {
+                                text: '软件设计原则',
+                                link: '/tech-article/other/design-principle'
                             }
                         ]
                     }
@@ -52,7 +74,20 @@ export default {
                     },
                     {
                         text: 'Java虚拟机',
-                        link: '/java/jvm'
+                        children: [
+                            {
+                                text: '认识JVM启动参数',
+                                link: '/java/jvm/start-param'
+                            },
+                            {
+                                text: '垃圾收集器',
+                                link: '/java/jvm/gc'
+                            },
+                            {
+                                text: '性能调优分析',
+                                link: '/java/jvm/performance-tunning'
+                            }
+                        ]
                     }
                 ]
             },
