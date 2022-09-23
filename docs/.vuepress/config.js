@@ -59,6 +59,10 @@ export default {
                 collapsible: false,
                 children: [
                     {
+                        text: 'Java知识树',
+                        link: '/java/java-tech-tree'
+                    },
+                    {
                         text: 'Java基础',
                         link: '/java/base'
                     },
