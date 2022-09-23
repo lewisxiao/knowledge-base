@@ -44,6 +44,10 @@ export default {
                             {
                                 text: '软件设计原则',
                                 link: '/tech-article/other/design-principle'
+                            },
+                            {
+                                text: '如何更新本地关联的远程仓库地址',
+                                link: '/tech-article/other/update-git-repo'
                             }
                         ]
                     }
