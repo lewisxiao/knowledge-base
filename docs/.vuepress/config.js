@@ -71,6 +71,10 @@ export default {
                         link: '/java/concurrent',
                         children: [
                             {
+                                text: '理解Thread.interrupt()',
+                                link: '/java/concurrent/interrupt'
+                            },
+                            {
                                 text: 'CountDownLatch',
                                 link: '/java/concurrent/count-down-latch'
                             },
