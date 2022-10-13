@@ -236,6 +236,10 @@ export default {
                     }
                 ]
             },
+            {
+                text: '面试',
+                link: '/interview'
+            }
         ]
     })
 }
