@@ -54,6 +54,10 @@ export default {
                 ]
             },
             {
+                text: '跳表',
+                link: 'algorithm/skip-list'
+            },
+            {
                 text: 'Java',
                 link: '/java/',
                 collapsible: false,
