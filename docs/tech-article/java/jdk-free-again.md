@@ -28,7 +28,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
 不同于 LTS 的 non-LTS 版本（也叫过渡版本），是不适合用在生产环境上的，你想想为什么大家在生产环境上不愿意使用 OpenJDK 的版本，OpenJDK 发布很频繁，语言特性跟 Oracle JDK 完全一样，但是 OpenJDK 版本一旦发布，就不会再维护和更新，所有的功能升级、bug修复都将放到下一个版本上。这与企业追求稳定是背道而驰的，谁也不想一遇到bug就升级一下 JDK。
 
 ## 我需要升级到 JDK 17 吗
-前面也说了，JDK 17 之后又可以免费商用了，JDK 17 使用了 [NTFC协议](https://blogs.oracle.com/java/post/free-java-license)，而且 JDK 17 又是一个 LTS 长达 8 年的版本，真可谓用心良苦。就连 Java 之父 詹姆斯·高斯林 都来为 JDK 17 打 call 了，可见 JDK 17 真的是有很大看到突破，要不然也得不到大佬的认同。
+前面也说了，JDK 17 之后又可以免费商用了，注意这里不是永久免费，**免费商用3年，3年之后需要付费，或者升级到新版本的JDK（前提是Oracle不改变协议）**。JDK 17 使用了 [NTFC协议](https://blogs.oracle.com/java/post/free-java-license)，而且 JDK 17 又是一个 LTS 长达 8 年的版本，真可谓用心良苦。就连 Java 之父 詹姆斯·高斯林 都来为 JDK 17 打 call 了，可见 JDK 17 真的是有很大看到突破，要不然也得不到大佬的认同。
 
 ![jsames gosling jdk17](./image/james-gosling-jdk17.jpg)
 
