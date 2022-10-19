@@ -48,6 +48,10 @@ export default {
                             {
                                 text: '如何更新本地关联的远程仓库地址',
                                 link: '/tech-article/other/update-git-repo'
+                            },
+                            {
+                                text: 'EPC电子标签',
+                                link: '/tech-article/other/epc-tag'
                             }
                         ]
                     }
