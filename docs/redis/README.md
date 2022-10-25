@@ -22,3 +22,5 @@ Redis的数据类型
 5. [Redis设计与实现](http://redisbook.com/index.html)
 6. [缓存更新策略](https://coolshell.cn/articles/17416.html?spm=5176.100239.0.0.EHDrfY)
 7. [SpringBoot应用之分布式缓存](http://segmentfault.com/a/1190000004389938)
+8. [阿里云Redis开发规范](https://developer.aliyun.com/article/531067)
+9. [Redis 中文网](https://www.redis.com.cn/)

@@ -189,6 +189,10 @@ export default {
                     {
                         text: '后端项目集',
                         link: '/open-source-project/backend'
+                    },
+                    {
+                        text: '实用小工具',
+                        link: '/open-source-project/tool'
                     }
                 ]
             },
