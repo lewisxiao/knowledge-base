@@ -14,6 +14,14 @@ Redis的数据类型
 
 > 小结：学习算法地作用是什么？由此可以发现一个重要的作用，各种程序所用的高级语言底层都是基于某种特定算法，算法都有各自的特性（或查询速度快；或更新、删除速度快）。理解算法，理解了语言特性，理解就更深入，在把需求落地实现时，就能选择正确的数据结构来实现，性能上会有不小提升。
 
+
+# 可视化工具
+## [Redis Desktop Manager](https://resp.app/)
+最初开源的时候还可以免费用，但现在已经开始收费了
+
+## [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager)
+免费开源的可视化管理工具，从名字上看，跟Redis Desktop Manager就有针锋相对的意思
+
 ## 学习资料
 1. [Redis 官网](https://redis.io/)
 2. [Redis 在线测试](http://try.redis.io/)
