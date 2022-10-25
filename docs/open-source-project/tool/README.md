@@ -33,3 +33,10 @@ Flameshot能做的不仅仅是截图，截图之后的处理才是其亮点：
 仅支持windows，免费开源，详见[项目地址](https://github.com/MathewSachin/Captura)
 
 ![captura](./image/Captura.jpg)
+
+## [OBS Studio](https://obsproject.com/)
+一款用于视频录制和直播的工具，在电脑上做直播时，可使用该工具。
+
+跨平台，免费开源，详见[项目地址](https://github.com/faressoft/terminalizer)
+
+![obs-studio](./image/obs-studio.jpg)
