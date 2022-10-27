@@ -14,6 +14,10 @@ Redis的数据类型
 
 > 小结：学习算法地作用是什么？由此可以发现一个重要的作用，各种程序所用的高级语言底层都是基于某种特定算法，算法都有各自的特性（或查询速度快；或更新、删除速度快）。理解算法，理解了语言特性，理解就更深入，在把需求落地实现时，就能选择正确的数据结构来实现，性能上会有不小提升。
 
+## 如何在windows上使用redis
+redis官网并没有推出 windows 上的redis版本，但是有民间高手开发出了windows上的redis，比如 [tporadowski redis](https://github.com/tporadowski/redis)，但是注意：稳定性肯定是不如官方版本的，而且有bug的话，官方不会修。
+
+windows上的redis，自己本地开发、调试，可以拿来用，生产环境上还是乖乖地用 linux 的版本吧。再说了，除了.net，难道真的有人在生产环境上把windows当作服务器操作系统吗？
 
 # 可视化工具
 ## [Redis Desktop Manager](https://resp.app/)

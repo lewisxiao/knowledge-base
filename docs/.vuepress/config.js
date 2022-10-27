@@ -124,6 +124,10 @@ export default {
                     {
                         text: '常用命令',
                         link: '/linux/command'
+                    },
+                    {
+                        text: '谈谈5种IO模型',
+                        link: '/linux/io-pattern'
                     }
                 ]
             },
