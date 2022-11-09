@@ -83,6 +83,10 @@ export default {
                                 link: '/java/concurrent/interrupt'
                             },
                             {
+                                text: 'JMM',
+                                link: '/java/concurrent/jmm'
+                            },
+                            {
                                 text: 'CountDownLatch',
                                 link: '/java/concurrent/count-down-latch'
                             },
