@@ -62,8 +62,10 @@ Happens-Before是用来描述Java内存模型中两个操作之间的顺序关�
 3. volatile关键字: 对一个volatile的写，before后续任意的读。
 4. 传递性: A before B, B before C，那么A before C。
 
-# Volatile
-volatile是java提供的关键字，有以下两个特征：
+# volatile
+volatile可以看做是轻量的synchronized，执行成本低，不会引发线程的上下文切换。如果一个变量用了volatile修饰，意味着所有线程看到变量的值是一样的。
+
+volatile有以下两个特征：
 1. 保证了多线程操作共享变量的可见性
 2. 禁止了指令重排序
 
