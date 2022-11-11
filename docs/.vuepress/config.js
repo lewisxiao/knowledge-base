@@ -58,8 +58,8 @@ export default {
                 ]
             },
             {
-                text: '跳表',
-                link: 'algorithm/skip-list'
+                text: '数据结构与算法',
+                link: '/algorithm'
             },
             {
                 text: 'Java',
@@ -68,7 +68,13 @@ export default {
                 children: [
                     {
                         text: 'Java知识树',
-                        link: '/java/java-tech-tree'
+                        link: '/java/tech-tree',
+                        children: [
+                            {
+                                text: '认识Java',
+                                link: '/java/tech-tree/understand-java'
+                            }
+                        ]
                     },
                     {
                         text: 'Java基础',
