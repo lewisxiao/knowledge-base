@@ -85,6 +85,10 @@ export default {
                         link: '/java/concurrent',
                         children: [
                             {
+                                text: '线程池详解',
+                                link: '/java/concurrent/thread-pool'
+                            },
+                            {
                                 text: '理解Thread.interrupt()',
                                 link: '/java/concurrent/interrupt'
                             },
