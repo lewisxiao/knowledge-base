@@ -73,6 +73,10 @@ export default {
                             {
                                 text: '认识Java',
                                 link: '/java/tech-tree/understand-java'
+                            },
+                            {
+                                text: '并发编程',
+                                link: '/java/tech-tree/concurrent'
                             }
                         ]
                     },
