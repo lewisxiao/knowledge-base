@@ -52,6 +52,10 @@ export default {
                             {
                                 text: 'EPC电子标签',
                                 link: '/tech-article/other/epc-tag'
+                            },
+                            {
+                                text: '科技网站有哪些',
+                                link: '/tech-article/other/tech-media'
                             }
                         ]
                     }
