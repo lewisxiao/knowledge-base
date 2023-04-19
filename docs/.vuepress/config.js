@@ -251,6 +251,10 @@ export default {
                             {
                                 text: 'Commit Message规范',
                                 link: '/tools/git/commit-message',
+                            },
+                            {
+                                text: '代码比对工具',
+                                link: '/tools/git/code-compare'
                             }
                         ]
                     },
