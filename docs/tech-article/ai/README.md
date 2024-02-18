@@ -20,6 +20,13 @@ AIGC（AI Generated Content）中文译为人工智能创作内容，简称为�
 
 很多基于Stable Diffusion模型的训练模型已经发布，最近比较火的便是chilloutmixni（一个真人图片生成模型）与lora模型（一种风格模型）
 
+
+## Sora
+2024年2月16日，OpenAI在其官网发布文生视频模型Sora，这个模型可以生成长达一分钟的视频，而且有很高的视觉品质。Sora一出，众小弟该诚服了。
+
+![sora is the god](./image/sora-is-the-god.jpg)
+
+
 ## 社区
 [Huggingface](https://huggingface.co/)
 
