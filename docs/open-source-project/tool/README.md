@@ -40,3 +40,7 @@ Flameshot能做的不仅仅是截图，截图之后的处理才是其亮点：
 跨平台，免费开源，详见[项目地址](https://github.com/faressoft/terminalizer)
 
 ![obs-studio](./image/obs-studio.jpg)
+
+
+## [DevToys](https://github.com/DevToys-app/DevToys)
+一个趁手的工具集合软件，包含开发过程中常用到的：Base64编码、Json格式化、markdown预览、sql格式化、密码生成等
