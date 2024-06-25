@@ -33,3 +33,6 @@ AIGC（AI Generated Content）中文译为人工智能创作内容，简称为�
 https://huggingface.co/spaces/stabilityai/stable-diffusion
 
 ## [Github Copilot](https://github.com/features/copilot)
+
+## AI 的三驾马车
+算法（框架+大模型）+ 数据 + 算力（芯片）
