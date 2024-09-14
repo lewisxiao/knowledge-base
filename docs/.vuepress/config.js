@@ -281,6 +281,16 @@ export default {
             {
                 text: '面试',
                 link: '/interview'
+            },
+            {
+                text: 'ATM',
+                link: '/atm',
+                children: [
+                    {
+                        text: 'XFS',
+                        link: '/atm/xfs',
+                    },
+                ]
             }
         ]
     })
