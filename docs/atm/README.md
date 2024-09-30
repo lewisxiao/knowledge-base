@@ -7,3 +7,4 @@ XFS(eXtensions for Financial Services，金融服务扩展)，有时候也叫做
 截至目前 2024-09-14，XFS 已经迭代到了 3.50 版本，各个版本的规范文档和SDK可以通过 CWA 的[官方文档](https://www.cencenelec.eu/areas-of-work/cen-sectors/digital-society-cen/cwa-download-area/)下载到，
 
 # XFS 的实现有哪些
+XFS 标准由 NCR 公司制定，NCR 公司也提供了对应的实现，叫NDC。
