@@ -11,6 +11,7 @@ MIB 全称是 Management Information Base，即是管理信息库
 SNMP 全称是 Simple Network Management Protocol，即是简单网络管理协议，它属于TCP/IP五层协议中的应用层协议，用于网络管理的协议。SNMP主要用于网络设备的管理。
 
 ## Net-SNMP
+http://www.net-snmp.org/wiki/index.php/Main_Page
 
 # NETCONF
 
