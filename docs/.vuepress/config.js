@@ -198,6 +198,11 @@ export default {
                 collapsible: false,
             },
             {
+                text: '小游戏',
+                link: '/mini-game/',
+                collapsible: false,
+            },
+            {
                 text: '开源项目集',
                 link: '/open-source-project/',
                 collapsible: false,
